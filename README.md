@@ -3,14 +3,14 @@
 ## Pre-Requisites
 
 - Install xamp, npm & composer
-- Create a localhost database named refinery 
+- Create a localhost database named <b>"refinery"</b> 
 
 ## Steps to run
 
 1) Fork repo in htdocs folder of xamp
 2) On repo folder, run command "composer install"
-3) Run command: npm run serve
-4) In another terminal run command: "php artisan migrate" & then "php artisan serve"
+3) Run command: <b>npm install</b> & <b>npm run serve</b>
+4) In another terminal run command: <b>"php artisan migrate"</b> & then <b>"php artisan serve"</b>
 5) Open localhost
 
 
