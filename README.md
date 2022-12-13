@@ -7,7 +7,7 @@
 
 ## Steps to run
 
-1) Fork repo
+1) Fork repo in htdocs folder of xamp
 2) On repo folder, run command "composer install"
 3) Run command: npm run serve
 4) In another terminal run command: "php artisan migrate" & then "php artisan serve"
