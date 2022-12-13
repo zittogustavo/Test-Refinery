@@ -14,10 +14,9 @@ class DepartmentController extends Controller
      */
     public function index()
     {
-        $departments = Department::latest()->paginate(5);
+        $departments = Department::all();
     
-        return view('department.index',compact('departments'))
-            ->with('i', (request()->input('page', 1) - 1) * 5);
+        return view('department.index',compact('departments'));
     }
      
     /**

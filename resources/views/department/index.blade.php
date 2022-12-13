@@ -58,6 +58,5 @@
         @endforeach
     </table>
   
-    {!! $departments->links() !!}
       
 @endsection
