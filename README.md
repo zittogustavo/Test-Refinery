@@ -3,7 +3,7 @@
 ## Pre-Requisites
 
 - Install xamp, npm & composer
-- Create a localhost database named <b>"refinery"</b> 
+- in Mysql, create a localhost database named <b>"refinery"</b> 
 
 ## Steps to run
 
