@@ -37,6 +37,11 @@
                 @endforeach
             </td>
             <td>
+                @foreach ($department->user as $user)
+                    {{ $user->name }} , 
+                @endforeach
+            </td>
+            <td>
                 <form action="{{ route('departments.destroy',$department->id) }}" method="POST">
    
                     <a class="btn btn-info" href="{{ route('departments.show',$department->id) }}">Show</a>
