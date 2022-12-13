@@ -8,9 +8,10 @@
 ## Steps to run
 
 1) Fork repo
-2) Run command: npm run serve
-3) In another terminal run command: php artisan migrate & php artisan serve
-4) Open localhost
+2) On repo folder, run command "composer install"
+3) Run command: npm run serve
+4) In another terminal run command: "php artisan migrate" & then "php artisan serve"
+5) Open localhost
 
 
 
